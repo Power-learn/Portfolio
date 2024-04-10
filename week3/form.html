@@ -16,12 +16,14 @@
   <h2>Student Registration Form</h2>
 
   <form>
+    <!--Form title-->
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
 
     <label for="dob">Date of Birth:</label>
     <input type="date" id="dob" name="dob" required>
 
+    <!--Single select-->
     <label for="gender">Gender:</label>
     <select id="gender" name="gender" required>
       <option value="male">Male</option>
@@ -38,6 +40,7 @@
     <label for="email">Email Address:</label>
     <input type="email" id="email" name="email" required>
 
+    <!--Course select -->
     <label for="course">Choose a Course:</label>
     <select id="course" name="course" required>
       <option value="web">Web Development</option>
@@ -46,6 +49,7 @@
       <option value="data">Data Science</option>
     </select>
     <br/>
+    <!--Buttons-->
     <button type="submit">Register</button>
     <button type="reset">Cancel</button>
   </form>
