@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+body {
+    background-color: #a39bd2;
+    min-height: 70vh;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #494a4b;
+    font-family: "Gochi Hand", cursive;
+    text-align: center;
+    font-size: 130%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        min-height: 100vh;
+    }
+}
+
+.container {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
